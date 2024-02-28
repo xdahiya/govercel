@@ -8,7 +8,7 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/adaptor"
 )
 
-func Handler() {
+func Handler(w http.ResponseWriter, r *http.Request) {
     // New fiber app
     app := fiber.New()
 
