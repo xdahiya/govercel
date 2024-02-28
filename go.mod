@@ -1,5 +1,3 @@
-module myapp
+module github.com/xdahiya/govercel
 
-go 1.18
-
-require github.com/tbxark/g4vercel v0.0.4 // indirect
+go 1.21.6
